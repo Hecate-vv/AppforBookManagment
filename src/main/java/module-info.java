@@ -3,6 +3,6 @@ module app.demo {
     requires javafx.fxml;
 
 
-    opens app.demo to javafx.fxml;
-    exports app.demo;
+    opens app to javafx.fxml;
+    exports app;
 }
