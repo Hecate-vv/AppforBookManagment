@@ -40,7 +40,7 @@ public class DatabaseController {
             System.out.println(e.getMessage());
         }
     }
-    public List<Book> booklist() {
+    public List<Book> bookList() {
         List<Book> books = new ArrayList<>();
         String selectSQL = "SELECT * FROM books";
         try {
